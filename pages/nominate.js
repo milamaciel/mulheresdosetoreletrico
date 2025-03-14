@@ -7,7 +7,7 @@ export default function Nominate({ designers }) {
   return (
     <div className="container">
       <Head>
-        <title>Brazilians Who Design | Nomiate</title>
+        <title>Mulheres no setor elétrico | Indicação</title>
         <link rel="icon" href="/favicon.ico" />
         <MetaTags />
       </Head>
@@ -19,13 +19,9 @@ export default function Nominate({ designers }) {
           height="100%"
           frameBorder="0"
           allow="camera; microphone; autoplay; encrypted-media;"
-          src="https://form.typeform.com/to/bbrPUqMe"
+          src="https://docs.google.com/forms/d/1RPVwa6HJdzaxAeJzvtXeD6j2Fkuo7svhHKgYV7U2PG8/edit"
         ></iframe>{" "}
-        <script
-          type="text/javascript"
-          src="https://embed.typeform.com/embed.js"
-        ></script>
-        <Analytics />
+                <Analytics />
       </div>
 
       <Link href="/" shallow={true}>
