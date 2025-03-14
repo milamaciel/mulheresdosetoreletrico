@@ -23,11 +23,11 @@ const container = {
   },
 };
 
-export default function Home({ designers }) {
+export default function Home({ mulheres }) {
   return (
     <div className="container">
       <Head>
-        <title>Brazilians Who Design | About</title>
+        <title>Mulheres no setor elétrico | About</title>
         <link rel="icon" href="/favicon.ico" />
         <MetaTags />
       </Head>
@@ -38,7 +38,7 @@ export default function Home({ designers }) {
 
       <Title
         className="title m0 p0"
-        text="Brazilians*who&nbsp;design&nbsp;is&nbsp;a"
+        text="Mulheres*do&nbsp;setor&nbsp;elétrico&nbspé&nbsp;uma"
         noAnimation
       />
 
@@ -49,51 +49,38 @@ export default function Home({ designers }) {
         exit="hidden"
       >
         <p className="f1 extend">
-          <motion.span variants={item}>place to showcase</motion.span>{" "}
-          <motion.span variants={item}>the work of talented</motion.span>{" "}
-          <motion.span variants={item}>Brazilian designers to</motion.span>{" "}
-          <motion.span variants={item}>the world. The goal</motion.span>{" "}
-          <motion.span variants={item}>is to inspire new</motion.span>{" "}
-          <motion.span variants={item}>designers to diversify</motion.span>{" "}
+          <motion.span variants={item}>plataforma para demonstrar </motion.span>{" "}
+          <motion.span variants={item}>as mulheres profissionais</motion.span>{" "}
+          <motion.span variants={item}>que trabalham no setor elétrico</motion.span>{" "}
+          <motion.span variants={item}>brasileiro para o mundo. O propósito</motion.span>{" "}
+          <motion.span variants={item}>é facilitar a busca rápida por mulheres</motion.span>{" "}
+          <motion.span variants={item}>de diferentes áreas</motion.span>{" "}
           <motion.span variants={item}>
-            their references, experienced designers
+            para promover uma maior participação 
           </motion.span>{" "}
           <motion.span variants={item}>
-            to diversity their network, and companies to diversify their teams.
+            feminina em eventos e indicação de nomes no setor elétrico.
           </motion.span>
         </p>
       </motion.div>
 
       <div className="moreabout">
         <div className="col-left">
-          <h3>How can I nominate someone?</h3>
+          <h3>Como posso incluir uma mulher na lista?</h3>
           <p>
-            If you know a Brazilian designer whose work or voice is valuable to
-            the design industry, please{" "}
+            Se você conhece uma mulher que trabalha 
+            no setor elétrico, é só {" "}
             <Link href="/nominate">
-              <a className="link">fill out this form</a>
+              <a className="link">preencher esse form</a>
             </Link>{" "}
-            with their information and a few words about why you're nominating
-            them. You can choose to link to their portfolio, to their Linkedin,
-            or to other social profiles — any link that you feel best represents
-            how that person is making a difference in the industry. We decided
-            not to collect or display the designer’s photo because we wanted the
-            repository to be less about what someone looks like and more about
-            how they’re making an impact in the industry.
+           com essas poucas informações agora conseguiremos encontrar facilmente mulheres com experiência nas mais diversas áreas no setor elétrico. 
+          Para acessar os detalhes profissionais de cada uma das mulheres é só acessar os seus Linkedins nos links .
           </p>
 
-          <h3>Why are featuring artists as well?</h3>
+         <h3>Como você teve essa idéia?</h3>
           <p>
-            We wanted to showcase not only contemporary Brazilian design, but
-            also leverage all the visibility that this project is getting to
-            celebrate the history of design in our country. Every time you
-            reload the website there’s a new featured Brazilian designer you can
-            learn more about.
-          </p>
-
-          <h3>How did you come up with this idea?</h3>
-          <p>
-            We didn’t. This project is inspired by our fantastic sibling sites:
+            Surgiu da insatisfação de sempre ouvir a mesma resposta de organizadores de eventos, que o motivo da falta de mulheres entre palestrantes e participantes de painéis, 
+             é que não encontraram mulheres no setor elétrico com experiência no tema. A plataforma foi inspirada em outros sites:
           </p>
           <ul>
             <li>
@@ -117,57 +104,29 @@ export default function Home({ designers }) {
               </a>
             </li>
             <li>
-              <a className="link" href="https://queerdesign.club/">
-                Queer Design Club
+              <a className="link" href="https://brazilianswho.design/">
+                Brazilian Who design
               </a>
             </li>
-            <li>
-              <a
-                className="link"
-                href="https://filipinos-who-design.webflow.io/"
-              >
-                Filipinos Who Design
-              </a>
-            </li>
-            <li>
-              <a
-                className="link"
-                href="https://filipinos-who-design.webflow.io/"
-              >
-                People Of Craft
-              </a>
-            </li>
-            <li>
-              <a className="link" href="https://indianswhodesign.in/">
-                Indians Who Design
-              </a>
-            </li>
-            <li>
-              <a className="link" href="https://www.apiwho.design/">
-                Asian & Pacific Islanders Who Design
-              </a>
-            </li>
-          </ul>
+            </ul>
 
-          <h3>How did you build this?</h3>
+          <h3>Como você fez a plataforma?</h3>
           <p>
-            Brazilians Who Design is{" "}
+            Como uma autoditada nerd, aprendi a mexer na raça no github e fiz!Mulheres no setor elétrico é {" "}
+            <a
+              className="link"
+              target="_blank"
+              href="https://github.com/milamaciel/mulheresdosetoreletrico"
+            >
+              open source
+            </a>{" "}
+            para quem quiser criar sua própria plataforma. Foi inspirado no Brazilian Who design que getilmente colocaram disponível no Github{" "}
             <a
               className="link"
               target="_blank"
               href="https://github.com/zehfernandes/brazilianswhodesign"
             >
-              open source
-            </a>{" "}
-            for you create your own showcase. It is built inspired by the tech
-            stack that Jules Forrest kindly made available on Github after
-            building{" "}
-            <a
-              className="link"
-              target="_blank"
-              href="https://github.com/julesforrest/womenwhodesign"
-            >
-              Women Who Design.
+              Brazilians Who Design.
             </a>
             <br />
             <br />
@@ -192,43 +151,27 @@ export default function Home({ designers }) {
           </ul>
           <br />
           <p>
-            Thanks to Caio Braga, Rafael Frota, Karina Sirqueira, Al Lucca,
-            Bruno Oyama, Fabio Sasso, Daniel Furtado, Rodrigo Muniz, Lucas
-            Falcão, for the help of gathering the initial list of designers.
+            Agradeço à todos que possam contribuir com a plataforma e compartilhar para termos cada vez mais mulheres na lista.
           </p>
 
-          <h3>Who’s behind this?</h3>
+          <h3>Quem criou a plataforma?</h3>
           <ul>
             <li>
-              <a className="link" href="https://twitter.com/zehf">
-                Zeh Fernandes
+              <a className="link" href="https://www.linkedin.com/in/milamaciel/">
+                Camila Maciel
               </a>
             </li>
-            <li>
-              <a className="link" href="http://twitter.com/fabriciot">
-                Fabricio Teixeira
-              </a>
-            </li>
-            <li>
-              <a className="link" href="http://uxdesign.cc/">
-                UX Collective
-              </a>
-            </li>
-          </ul>
+            </ul>
         </div>
         <div className="col-right">
-          <h3>How can I remove my name?</h3>
+          <h3>Como posso remover um nome?</h3>
           <p>
-            If you’ve been added to the directory and would like to opt-out or
-            make an edit to your profile, please send us a message at
-            hello@uxdesign.cc.
+            Para remover um nome na plataforma, gentileza manda mensgem para:
+            engcamilamaciel@gmail.com.
           </p>
-          <h3>Why is my nomination taking so long to show?</h3>
+          <h3>Quando é feita a atualização dos nomes indicados?</h3>
           <p>
-            We update this website once a week to include new names. To ensure a
-            healthy gender balance on this website, some nominations might take
-            longer to appear. In the meantime, try nominating a designer who
-            identifies as a woman or non-binary.
+            A plataforma é atualizada com os nomes indicados quinzenalmente.
           </p>
         </div>
 
