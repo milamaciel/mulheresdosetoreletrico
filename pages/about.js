@@ -23,7 +23,7 @@ const container = {
   },
 };
 
-export default function Home({ mulheres }) {
+export default function Home({ designers }) {
   return (
     <div className="container">
       <Head>
@@ -38,7 +38,7 @@ export default function Home({ mulheres }) {
 
       <Title
         className="title m0 p0"
-        text="Mulheres*do&nbsp;setor&nbsp;elétrico&nbspé&nbsp;uma"
+        text="Mulheres*no&nbsp;setor&nbsp;elétrico&nbsp;é&nbsp;uma"
         noAnimation
       />
 
