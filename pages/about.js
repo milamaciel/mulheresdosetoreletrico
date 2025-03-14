@@ -27,7 +27,7 @@ export default function Home({ designers }) {
   return (
     <div className="container">
       <Head>
-        <title>Mulheres no setor elétrico | Sobre</title>
+        <title>Mulheres no setor eletrico | Sobre</title>
         <link rel="icon" href="/favicon.ico" />
         <MetaTags />
       </Head>
@@ -38,7 +38,7 @@ export default function Home({ designers }) {
 
       <Title
         className="title m0 p0"
-        text="Mulheres*no&nbsp;setor&nbsp;elétrico&nbsp;é&nbsp;uma"
+        text="Mulheres*no&nbsp;setor&nbsp;eletrico&nbsp;uma"
         noAnimation
       />
 
@@ -51,9 +51,9 @@ export default function Home({ designers }) {
         <p className="f1 extend">
           <motion.span variants={item}>plataforma para demonstrar </motion.span>{" "}
           <motion.span variants={item}>as mulheres profissionais</motion.span>{" "}
-          <motion.span variants={item}>que trabalham no setor elétrico</motion.span>{" "}
-          <motion.span variants={item}>brasileiro para o mundo. O propósito</motion.span>{" "}
-          <motion.span variants={item}>é facilitar a busca rápida por mulheres</motion.span>{" "}
+          <motion.span variants={item}>que trabalham no setor eletrico</motion.span>{" "}
+          <motion.span variants={item}>brasileiro para o mundo. </motion.span>{" "}
+          <motion.span variants={item}> O proposito é facilitar a busca rápida por mulheres</motion.span>{" "}
           <motion.span variants={item}>de diferentes áreas</motion.span>{" "}
           <motion.span variants={item}>
             para promover uma maior participação 
@@ -74,8 +74,7 @@ export default function Home({ designers }) {
               <a className="link">preencher esse form</a>
             </Link>{" "}
            com essas poucas informações agora conseguiremos encontrar facilmente mulheres com experiência nas mais diversas áreas no setor elétrico. 
-          Para acessar os detalhes profissionais de cada uma das mulheres é só acessar os seus Linkedins nos links .
-          </p>
+            </p>
 
          <h3>Como você teve essa idéia?</h3>
           <p>
@@ -120,7 +119,7 @@ export default function Home({ designers }) {
             >
               open source
             </a>{" "}
-            para quem quiser criar sua própria plataforma. Foi inspirado no Brazilian Who design que getilmente colocaram disponível no Github{" "}
+            para quem quiser criar sua própria plataforma, foi inspirado no Brazilian Who design que getilmente colocaram disponível no Github{" "}
             <a
               className="link"
               target="_blank"
@@ -151,7 +150,7 @@ export default function Home({ designers }) {
           </ul>
           <br />
           <p>
-            Agradeço à todos que possam contribuir com a plataforma e compartilhar para termos cada vez mais mulheres na lista.
+            Agradeço à todos que possam contribuir com a plataforma e compartilhar para termos cada vez mais mulheres na lista
           </p>
 
           <h3>Quem criou a plataforma?</h3>
@@ -166,8 +165,8 @@ export default function Home({ designers }) {
         <div className="col-right">
           <h3>Como posso remover um nome?</h3>
           <p>
-            Para remover um nome na plataforma, gentileza manda mensgem para:
-            engcamilamaciel@gmail.com.
+            Para remover um nome na plataforma, gentileza mandar mensagem para:
+            engcamilamaciel
           </p>
           <h3>Quando é feita a atualização dos nomes indicados?</h3>
           <p>
