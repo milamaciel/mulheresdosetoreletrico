@@ -10,7 +10,7 @@ html {
 body {
   font-family: "Helvetica Now Display", "Helvetica Neue", "Helvetica";
   background: #000;
-  color: #fff;
+  color: #F0D0B7;
   font-weight: 500;
   margin: 0;
   padding: 0;
@@ -117,7 +117,7 @@ table tbody tr:last-child td {
 }
 
 .arrowback {
-  color: #fff;
+  color: #F0D0B7;
   font-size: 3rem;
   text-decoration: none;
   cursor: pointer;
@@ -130,7 +130,7 @@ table tbody tr:last-child td {
 }
 
 a.link {
-  --color: #fff;
+  --color: #F0D0B7;
   position: relative;
   color: var(--color);
   text-decoration: none;
