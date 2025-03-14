@@ -27,7 +27,7 @@ export default function Home({ mulheres }) {
   return (
     <div className="container">
       <Head>
-        <title>Mulheres no setor elétrico | About</title>
+        <title>Mulheres no setor elétrico | Sobre</title>
         <link rel="icon" href="/favicon.ico" />
         <MetaTags />
       </Head>
