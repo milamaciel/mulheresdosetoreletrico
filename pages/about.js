@@ -156,7 +156,7 @@ export default function Home({ designers }) {
           <h3>Quem criou a plataforma?</h3>
           <ul>
             <li>
-              <a className="link" href="https://www.linkedin.com/in/milamaciel/">
+              <a className="link" href="https://www.linkedin.com/in/milamaciel">
                 Camila Maciel
               </a>
             </li>
